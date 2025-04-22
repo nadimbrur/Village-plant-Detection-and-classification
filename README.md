@@ -22,7 +22,7 @@ Neck: PAN-FPN for multi-scale feature fusion
 Head: Decoupled detection head with objectness, classification, and regression branches
 
 ### Architecture:
-![AYOLOv8’s](image.png)
+<img src="image.png" alt="YOLO model" width="500" height="500"/>
 
 YOLOv8’s architecture is presented by GitHub user RangeKing
 
@@ -37,7 +37,8 @@ Neck: Feature Pyramid Network (FPN) for scale-aware detection
 Head: Subnetworks for classification and bounding box regression
 
 ### Architecture:
-![RetinaNet](retina.png)
+
+<img src="retina.png" alt="RetinaNet model" width="500" height="250"/>
 Image taken from [this paper](https://www.researchgate.net/publication/346881433/figure/fig1/AS:986672187600896@1612252389239/RetinaNet-architecture-4-The-bottom-up-pathway-is-a-feedforward-ResNet-Architecture.ppm)
 
 
@@ -66,10 +67,13 @@ Image taken from [this paper](https://www.researchgate.net/publication/346881433
 
 ## Result of YOLOv8 (You Only Look Once, Version 8)
 ### Label
-![Label](runs/detect/train3/val_batch2_labels.jpg)
+<img src="runs/detect/train3/val_batch2_labels.jpg" alt="Label" width="600" height="600"/>
+
 
 ### Prediction using Yolo v8 with confidence score
-![Prediction](runs/detect/train3/val_batch2_pred.jpg)
+<img src="runs/detect/train3/val_batch2_pred.jpg" alt="Prediction" width="600" height="600"/>
+
 
 ### Confusion matrix (Normalized version)
-![Confusion](runs/detect/train3/confusion_matrix_normalized.png)
+
+<img src="runs/detect/train3/confusion_matrix_normalized.png" alt="Confusion" width="400" height="350"/>
